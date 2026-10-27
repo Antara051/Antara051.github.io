@@ -17,3 +17,20 @@
   display: block;
   box-shadow: 0 12px 35px rgba(0,0,0,0.12);
 }
+
+/* Larger academic portrait */
+.about-grid .portrait-container {
+  width: 450px !important;
+  max-width: 100% !important;
+  margin: 25px 0 !important;
+}
+
+.about-grid .portrait-container img {
+  display: block !important;
+  width: 100% !important;
+  height: 550px !important;
+  max-width: none !important;
+  object-fit: cover !important;
+  object-position: center top !important;
+  border-radius: 18px;
+}
