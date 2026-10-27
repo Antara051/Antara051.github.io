@@ -1,20 +1,22 @@
-# Personal academic website — Raihana Shams Islam Antara
+# Raihana Antara — Academic Website
 
-Static responsive website, ready for GitHub Pages. No build step required.
+Static, responsive academic portfolio for GitHub Pages. No build step required.
 
-## Personalize before publishing
+## Preview locally
+Open `index.html` in a browser. Google Fonts require an internet connection.
 
-1. Put your own portrait at `assets/profile.jpg` (recommended portrait crop, at least 900×1200 px). The hero automatically shows it.
-2. Replace `YOUR_EMAIL@EXAMPLE.COM` in `index.html` with your public professional email.
-3. Replace both `https://www.linkedin.com/` links with your LinkedIn profile URL.
-4. Update the Publications section with verified citations, and review all biography details.
-5. Optional: customize colors in `style.css` under `:root`.
+## Publish on GitHub Pages
+1. Create or open the repository `YOUR-USERNAME.github.io`.
+2. Upload `index.html`, `styles.css`, `script.js`, and the `assets` folder to the repository root.
+3. Under **Settings → Pages**, choose **Deploy from a branch**, `main`, `/(root)`.
+4. Visit `https://YOUR-USERNAME.github.io/` after deployment.
 
-## Publish with GitHub Pages
+## Update your website
+- Text, sections, publication records and links: `index.html`.
+- Colors, layout, visual cards and typography: `styles.css`.
+- Mobile navigation: `script.js`.
+- Replace the portrait placeholder with your own image. Save your portrait as `assets/portrait.jpg`, then replace the `portrait-placeholder` div in `index.html` with `<img class="portrait-photo" src="assets/portrait.jpg" alt="Portrait of Raihana Shams Islam Antara">` and add `.portrait-photo{width:100%;height:310px;object-fit:cover;border-radius:8px}` to `styles.css`.
+- Project imagery is CSS illustration, not a claim to show authentic mission photographs.
+- Add verified publications, links, and preferred contact details before publishing.
 
-1. Create a public GitHub repository named `YOUR_USERNAME.github.io` (or another name).
-2. Upload `index.html`, `style.css`, `script.js`, and the `assets` folder to the repository root.
-3. In GitHub repository **Settings → Pages**, choose **Deploy from a branch**, branch **main**, folder **/(root)**, and save.
-4. Your site will appear at `https://YOUR_USERNAME.github.io/` (or `https://YOUR_USERNAME.github.io/REPOSITORY_NAME/` for a project repository).
-
-This is a custom design inspired by the supplied reference screenshot, not a copy of the original site's images or identity.
+To replace same-named files in GitHub, upload the updated files into the same paths and commit the changes. Do not upload the containing folder itself if your Pages site serves from repository root.
