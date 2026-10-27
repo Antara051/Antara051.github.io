@@ -41,4 +41,145 @@
     height: 460px;
   }
 }
+
+
+/* ====================================
+   WEBSITE TYPOGRAPHY IMPROVEMENTS
+   ==================================== */
+
+/* General body text */
+body {
+  font-size: 17px;
+  line-height: 1.75;
+}
+
+/* Navigation */
+nav a {
+  font-size: 15px;
+}
+
+/* Website logo subtitle */
+.brand-sub {
+  font-size: 11px;
+}
+
+/* Main homepage heading */
+.hero h1 {
+  font-size: clamp(44px, 5vw, 70px);
+}
+
+/* Homepage introduction */
+.hero-intro {
+  font-size: 19px;
+}
+
+/* Section headings */
+.section h2 {
+  font-size: clamp(36px, 3.8vw, 50px);
+}
+
+/* Section labels */
+.section-kicker,
+.eyebrow {
+  font-size: 13px;
+}
+
+/* About biography */
+.about-content p {
+  font-size: 17px;
+  line-height: 1.85;
+}
+
+.about-content .lead {
+  font-size: 21px;
+}
+
+/* Research cards */
+.card-body h3 {
+  font-size: 23px;
+}
+
+.card-body p {
+  font-size: 16px;
+}
+
+/* Project titles and descriptions */
+.project-details h3 {
+  font-size: 28px;
+}
+
+.project-details p {
+  font-size: 17px;
+}
+
+/* Publications */
+.publication h3 {
+  font-size: 22px;
+}
+
+.publication p {
+  font-size: 16px;
+}
+
+/* Highlights */
+.highlight h3 {
+  font-size: 21px;
+}
+
+.highlight p {
+  font-size: 16px;
+}
+
+/* Other descriptions */
+.section-heading > p,
+.facts strong {
+  font-size: 16px;
+}
+
+/* Buttons */
+.btn {
+  font-size: 15px;
+}
+
+/* Small labels */
+.tag,
+.facts span,
+.project-foot,
+.pub-note {
+  font-size: 12px;
+}
+
+/* Contact */
+.contact-section p {
+  font-size: 17px;
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 650px) {
+  .hero h1 {
+    font-size: 42px;
+  }
+
+  .hero-intro {
+    font-size: 17px;
+  }
+
+  .section h2 {
+    font-size: 34px;
+  }
+
+  .about-content .lead {
+    font-size: 19px;
+  }
+
+  .project-details h3 {
+    font-size: 24px;
+  }
+}
+
   
