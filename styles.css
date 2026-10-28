@@ -141,4 +141,25 @@ footer { font-size: 16px; }
 }
 
 
+/* Center VERTECS image beside project description */
+
+.project:has(.vertecs-project-photo) .project-image.station {
+  align-self: center !important;
+  height: auto !important;
+  min-height: 0 !important;
+  background: transparent !important;
+}
+
+.project:has(.vertecs-project-photo) .vertecs-project-photo {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+@media (max-width: 650px) {
+  .project:has(.vertecs-project-photo) .project-image.station {
+    align-self: stretch !important;
+  }
+}
+
 
