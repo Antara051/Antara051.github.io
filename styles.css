@@ -162,4 +162,31 @@ footer { font-size: 16px; }
   }
 }
 
+/* Lunar Rover project image - fix cropping and spacing */
+
+.project-image.lunar {
+  height: auto !important;
+  min-height: 0 !important;
+  max-height: none !important;
+  align-self: center !important;
+  background: transparent !important;
+  overflow: hidden;
+  display: block !important;
+}
+
+.project-image.lunar .project-photo {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center !important;
+}
+
+@media (max-width: 650px) {
+  .project-image.lunar {
+    align-self: stretch !important;
+  }
+}
+
 
