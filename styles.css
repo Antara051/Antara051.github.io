@@ -114,11 +114,12 @@ footer { font-size: 16px; }
 
 
 
-/* VERTECS project image - corrected layout */
+
+/* VERTECS project image - final layout */
 
 .project-image.station {
   height: 100%;
-  min-height: 350px;
+  min-height: 0;
   position: relative;
   overflow: hidden;
   background: #071525;
@@ -130,14 +131,21 @@ footer { font-size: 16px; }
 .vertecs-project-photo {
   display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   object-fit: contain;
+  object-position: center center;
 }
 
 @media (max-width: 650px) {
   .project-image.station {
-    height: auto;
+    height: 300px;
     min-height: 0;
+  }
+
+  .vertecs-project-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
   }
 }
 
